@@ -2,7 +2,7 @@
 
 Landing page estática do curso **Lógica de Programação** (40h ao vivo, presencial e online), servida por nginx em container via Coolify.
 
-- **Produção:** https://logica.impacta.com.br (canonical: https://www.impacta.com.br/cursos/logica)
+- **Produção:** https://logica.technowhub.ai (canonical: https://www.impacta.com.br/cursos/logica)
 - **Infra:** Coolify na VPS Hetzner (`159.69.240.1`) — push na `main` → redeploy automático
 - **Healthcheck:** `GET /healthz` → `ok`
 

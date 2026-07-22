@@ -26,4 +26,4 @@ Allow: /
 User-agent: Applebot-Extended
 Allow: /
 
-Sitemap: https://logica.impacta.com.br/sitemap.xml
+Sitemap: https://logica.technowhub.ai/sitemap.xml
