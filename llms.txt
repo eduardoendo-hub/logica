@@ -1,0 +1,38 @@
+# Lógica de Programação do Zero (Impacta × Olhar Digital)
+
+> Curso ao vivo de lógica de programação para quem nunca programou: raciocínio lógico, algoritmos e fluxogramas, pensamento computacional, Python na prática, dados e arquivos, debug e testes — terminando com um projeto final completo de portfólio. 40 horas, presencial (Av. Paulista, São Paulo) ou online ao vivo. Realização da Faculdade Impacta em parceria com o Olhar Digital.
+
+## Informações essenciais
+- **Modalidades:** presencial (campus Av. Paulista, 1009 — São Paulo) ou 100% online ao vivo (síncrono). Mesmo conteúdo, certificado e professores.
+- **Carga horária:** 40 horas, período noturno (19h–22h).
+- **Turmas (setembro/2026):** online ao vivo a partir de 01/09/2026 (seg a sex) · presencial a partir de 14/09/2026 (seg, qua e sex).
+- **Investimento:** R$ 1.197 à vista (de R$ 1.500) ou 12x de R$ 119 — mesmo valor nas duas modalidades.
+- **Para quem é:** iniciantes absolutos — sem pré-requisito e sem necessidade de matemática avançada.
+- **Certificado:** Certificado Impacta + aulas gravadas de apoio por período definido.
+
+## O que o aluno aprende
+- Raciocínio lógico: transformar problemas em passos claros e ordenados
+- Algoritmos e fluxogramas com simbologia oficial; pseudocódigo e teste de mesa
+- Python na prática: variáveis, tipos, condições, laços, funções e try/except
+- Dados: listas, matrizes, leitura e gravação de arquivos .txt e .csv
+- Debug e mentalidade de testes: encontrar e corrigir erros com método
+- Pensamento computacional: decomposição, padrões e abstração
+- Projeto final: um mini-sistema completo, do aluno, para o portfólio
+
+## Programa (9 módulos + projeto final)
+1. Desvendando a Mente do Computador — lógica, algoritmo × programa, fluxogramas
+2. Dominando o Fluxo da Lógica — sequência, decisão (if/else), repetição (for/while)
+3. Primeiros Passos com Python — entrada/saída, variáveis, tipos, operadores
+4. Python Essencial para o Iniciante — funções, strings, random, try/except
+5. Listas, Matrizes e Funções — arrays, índices, loops encadeados, modularização
+6. Construindo Algoritmos Profissionais — debug estruturado, busca e ordenação
+7. Pensamento Computacional — decomposição, padrões, abstração
+8. Salvando e Lendo Dados — persistência em .txt/.csv, mini banco de dados
+9. Debug e Mentalidade de Testes — rastreamento de falhas, validação de entradas
+Final. Projeto Final — o primeiro software completo do aluno
+
+## Links
+- Página do curso: https://www.impacta.com.br/cursos/logica
+- Matrícula presencial: https://impacta.site.engaged.com.br/p/checkout/se22shhnov
+- Matrícula online ao vivo: https://impacta.site.engaged.com.br/p/checkout/3je9srypg3
+- WhatsApp da equipe: https://api.whatsapp.com/send?phone=551132548300
