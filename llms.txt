@@ -32,7 +32,7 @@
 Final. Projeto Final — o primeiro software completo do aluno
 
 ## Links
-- Página do curso: https://www.impacta.com.br/cursos/logica
+- Página do curso: https://www.impacta.com.br/cursos/logica/
 - Matrícula presencial: https://impacta.site.engaged.com.br/p/checkout/se22shhnov
 - Matrícula online ao vivo: https://impacta.site.engaged.com.br/p/checkout/3je9srypg3
 - WhatsApp da equipe: https://api.whatsapp.com/send?phone=551132548300
