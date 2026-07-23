@@ -22,8 +22,9 @@
     IRIS_EVENTS_URL: 'https://iris.technowhub.ai/api/events',
     TICKET_VALUE:    1197,           // preço à vista — referência p/ value
     CURRENCY:        'BRL',
-    // Pixel da Meta — preencher quando o pixel do curso for criado:
-    META_PIXEL_ID:   '',
+    // Pixel IRIS — pixel único de todas as LPs Impacta (jul/2026):
+    META_PIXEL_ID:   '1581473926936760',
+    CONTENT_NAME:    'logica',
   };
 
   var UTM_KEYS = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term'];
@@ -125,7 +126,7 @@
   }
 
   function track(eventName, params) {
-    params = params || {};
+    params = Object.assign({ content_name: CFG.CONTENT_NAME }, params || {});
     if (window.fbq) { try { window.fbq('track', eventName, params); } catch (e) {} }
     if (window.dataLayer) { window.dataLayer.push(Object.assign({ event: eventName }, params)); }
   }
