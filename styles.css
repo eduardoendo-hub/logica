@@ -261,7 +261,7 @@ h1,h2,h3{font-family:var(--disp);font-weight:600;letter-spacing:-.01em;line-heig
 }
 #bg-canvas{position:fixed;inset:0;width:100%;height:100%;z-index:0;pointer-events:none;opacity:.4}
 .sec:nth-of-type(even){background:linear-gradient(180deg,#0A100F 0%,#060A09 100%);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-.sec:nth-of-type(even) .stat,.sec:nth-of-type(even) .svc,.sec:nth-of-type(even) .lote,.sec:nth-of-type(even) .turma,.sec:nth-of-type(even) .award,.sec:nth-of-type(even) .price-card,.sec:nth-of-type(even) .spec,.sec:nth-of-type(even) .final-copy{background:#0D1413}
+.sec:nth-of-type(even) .stat,.sec:nth-of-type(even) .svc,.sec:nth-of-type(even) .lote,.sec:nth-of-type(even) .turma,.sec:nth-of-type(even) .award,.sec:nth-of-type(even) .price-card,.sec:nth-of-type(even) .spec,.sec:nth-of-type(even) .final-copy,.sec:nth-of-type(even) .depo,.sec:nth-of-type(even) .bcard{background:#0D1413}
 .sec-glow{position:absolute;border-radius:50%;pointer-events:none;filter:blur(30px);z-index:0}
 .campus{position:relative;border-radius:20px;overflow:hidden;border:1px solid var(--line-2);aspect-ratio:9/16;margin-bottom:0}
 .impacta-grid{display:grid;grid-template-columns:minmax(200px,.6fr) 1fr;gap:18px;align-items:stretch}
@@ -310,3 +310,35 @@ h1,h2,h3{font-family:var(--disp);font-weight:600;letter-spacing:-.01em;line-heig
 .btn-wa:hover{border-color:var(--neon);color:var(--neon);transform:translateY(-2px)}
 .btn-wa svg{width:18px;height:18px;fill:currentColor}
 .brand img{transition:.2s}
+
+/* ── Programa detalhado (acordeão por módulo) ── */
+.pmod{border-bottom:1px solid var(--line)}
+.pmod summary{list-style:none;cursor:pointer}
+.pmod summary::-webkit-details-marker{display:none}
+.pmod .prow{border-bottom:none}
+.pmx{display:inline-grid;place-items:center;width:26px;height:26px;border-radius:50%;border:1px solid var(--line-2);color:var(--neon);font-family:var(--mono);font-size:15px;font-weight:400;margin-top:10px;transition:.2s}
+.pmod[open] .pmx{transform:rotate(45deg);background:var(--neon);color:#02110D;border-color:var(--neon)}
+.pmod[open] .prow .num{color:var(--neon)}
+.pbody{padding:2px 8px 28px;max-width:840px}
+.pbody .ptag{font-family:var(--serif);font-style:italic;font-size:19px;color:var(--neon-2);margin-bottom:12px}
+.pbody ul{list-style:none;display:grid;gap:8px}
+.pbody li{position:relative;padding-left:24px;font-size:14.5px;color:var(--txt-2);line-height:1.55}
+.pbody li::before{content:"→";position:absolute;left:0;top:0;color:var(--neon);font-family:var(--mono);font-size:12.5px}
+@media(max-width:1020px){.pbody{padding-left:0}}
+
+/* ── Depoimentos ── */
+.depo-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.depo{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:30px;margin:0;transition:.2s;display:flex;flex-direction:column;gap:16px}
+.depo:hover{border-color:var(--line-2);background:var(--panel-2)}
+.depo::before{content:"\201C";font-family:var(--serif);font-size:58px;line-height:.6;color:var(--neon);opacity:.75}
+.depo blockquote{font-family:var(--serif);font-style:italic;font-size:18.5px;line-height:1.6;color:var(--txt);flex:1}
+.depo figcaption{display:flex;align-items:center;gap:10px;font-family:var(--mono)}
+.depo figcaption i{width:8px;height:8px;border-radius:50%;background:var(--neon);box-shadow:0 0 10px rgba(43,230,195,.9);flex-shrink:0}
+.depo figcaption b{font-size:13px;color:#fff;letter-spacing:.08em;text-transform:uppercase;font-weight:600}
+.depo figcaption small{font-size:11px;color:var(--txt-3)}
+@media(max-width:900px){.depo-grid{grid-template-columns:1fr}}
+
+/* ── Bullets das habilidades (svc cards) ── */
+.svc ul{list-style:none;margin-top:14px;display:grid;gap:7px}
+.svc li{position:relative;padding-left:18px;font-size:13px;color:var(--txt-2);line-height:1.5}
+.svc li::before{content:"";position:absolute;left:2px;top:8px;width:5px;height:5px;border-radius:50%;background:var(--neon);opacity:.8}

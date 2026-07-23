@@ -7,7 +7,8 @@
 - **Carga horária:** 40 horas, período noturno (19h–22h).
 - **Turmas (setembro/2026):** online ao vivo a partir de 01/09/2026 (seg a sex) · presencial a partir de 14/09/2026 (seg, qua e sex).
 - **Investimento:** R$ 1.197 à vista (de R$ 1.500) ou 12x de R$ 119 — mesmo valor nas duas modalidades.
-- **Para quem é:** iniciantes absolutos — sem pré-requisito e sem necessidade de matemática avançada.
+- **Para quem é:** estudantes que querem começar do zero na programação, profissionais de outras áreas que querem resolver problemas de forma estruturada e qualquer pessoa que queira aprender lógica — sem pré-requisito e sem matemática avançada.
+- **Por que agora:** lógica é a base de qualquer linguagem (Python, Java etc.), empresas valorizam quem resolve problemas de forma estruturada e o mercado brasileiro tem déficit de 530 mil profissionais de tecnologia.
 - **Certificado:** Certificado Impacta + aulas gravadas de apoio por período definido.
 
 ## O que o aluno aprende
