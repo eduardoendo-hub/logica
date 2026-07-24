@@ -25,6 +25,9 @@
     // Pixel IRIS — pixel único de todas as LPs Impacta (jul/2026):
     META_PIXEL_ID:   '1581473926936760',
     CONTENT_NAME:    'logica',
+    // Google Ads — conversão "InitiateCheckout LP Logica" (clique no checkout):
+    GOOGLE_ADS_ID:    'AW-1056567970',
+    GOOGLE_ADS_LABEL: '2zoCCNG8hNYcEKLl5_cD',
   };
 
   var UTM_KEYS = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term'];
@@ -105,6 +108,7 @@
           };
           sendIrisEvent('click_compra', meta);
           track('InitiateCheckout', { value: CFG.TICKET_VALUE, currency: CFG.CURRENCY, placement: cta, modalidade: meta.modalidade });
+          trackGoogleConversion();
         } else if (cta === 'whatsapp') {
           sendIrisEvent('click_whats', { channel: 'whatsapp' });
           track('Contact', { placement: cta });
@@ -125,6 +129,32 @@
     window.fbq('track', 'PageView');
   }
 
+  // ─── 5b. Google Ads (gtag) ────────────────────────────────────────────────
+  function initGtag() {
+    if (!CFG.GOOGLE_ADS_ID || window.gtag) return;
+    var s = document.createElement('script');
+    s.async = true;
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=' + CFG.GOOGLE_ADS_ID;
+    document.head.appendChild(s);
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function () { window.dataLayer.push(arguments); };
+    window.gtag('js', new Date());
+    window.gtag('config', CFG.GOOGLE_ADS_ID);
+  }
+
+  // Conversão do Google Ads — só no clique de checkout (botões abrem em nova
+  // aba, então não precisa de event_callback pra segurar a navegação).
+  function trackGoogleConversion() {
+    if (!window.gtag || !CFG.GOOGLE_ADS_LABEL) return;
+    try {
+      window.gtag('event', 'conversion', {
+        send_to: CFG.GOOGLE_ADS_ID + '/' + CFG.GOOGLE_ADS_LABEL,
+        value: CFG.TICKET_VALUE,
+        currency: CFG.CURRENCY
+      });
+    } catch (e) {}
+  }
+
   function track(eventName, params) {
     params = Object.assign({ content_name: CFG.CONTENT_NAME }, params || {});
     if (window.fbq) { try { window.fbq('track', eventName, params); } catch (e) {} }
@@ -138,6 +168,7 @@
   }
 
   initPixel();
+  initGtag();
   apply();
   new MutationObserver(apply).observe(document.body, { childList: true, subtree: true });
 
