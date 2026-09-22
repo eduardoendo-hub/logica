@@ -18,7 +18,7 @@
 
   var CFG = {
     PRODUCT_SLUG:    'logica',
-    CAMPAIGN_SLUG:   'logica-setembro-2026',
+    CAMPAIGN_SLUG:   'logica-outubro-2026',
     IRIS_EVENTS_URL: 'https://iris.technowhub.ai/api/events',
     TICKET_VALUE:    1197,           // preço à vista — referência p/ value
     CURRENCY:        'BRL',
