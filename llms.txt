@@ -1,11 +1,11 @@
 # Lógica de Programação do Zero (Impacta × Olhar Digital)
 
-> Curso ao vivo de lógica de programação para quem nunca programou: raciocínio lógico, algoritmos e fluxogramas, pensamento computacional, Python na prática, dados e arquivos, debug e testes — terminando com um projeto final completo de portfólio. 40 horas, presencial (Av. Paulista, São Paulo) ou online ao vivo. Realização da Faculdade Impacta em parceria com o Olhar Digital.
+> Curso ao vivo de lógica de programação para quem nunca programou: raciocínio lógico, algoritmos e fluxogramas, pensamento computacional, Python na prática, dados e arquivos, debug e testes — terminando com um projeto final completo de portfólio. 40 horas, 100% online ao vivo — turmas no dia de semana (noturno) ou aos sábados. Realização da Faculdade Impacta em parceria com o Olhar Digital.
 
 ## Informações essenciais
-- **Modalidades:** presencial (campus Av. Paulista, 1009 — São Paulo) ou 100% online ao vivo (síncrono). Mesmo conteúdo, certificado e professores.
-- **Carga horária:** 40 horas, período noturno (19h–23h).
-- **Turmas (outubro/2026):** online ao vivo a partir de 01/10/2026 (seg a sex) · presencial a partir de 19/10/2026 (seg, qua e sex).
+- **Modalidades:** 100% online ao vivo (síncrono), em dois ritmos — dia de semana ou sábado. Mesmo conteúdo, certificado e professores.
+- **Carga horária:** 40 horas — semana: seg a sex, 19h–23h · sábado: 9h–18h.
+- **Turmas:** semana a partir de 01/12/2026 e de 11/01/2027 · sábado a partir de 09/01/2027.
 - **Investimento:** R$ 1.197 à vista (de R$ 1.500) ou 12x de R$ 119 — mesmo valor nas duas modalidades.
 - **Para quem é:** estudantes que querem começar do zero na programação, profissionais de outras áreas que querem resolver problemas de forma estruturada e qualquer pessoa que queira aprender lógica — sem pré-requisito e sem matemática avançada.
 - **Por que agora:** lógica é a base de qualquer linguagem (Python, Java etc.), empresas valorizam quem resolve problemas de forma estruturada e o mercado brasileiro tem déficit de 530 mil profissionais de tecnologia.
@@ -34,6 +34,7 @@ Final. Projeto Final — o primeiro software completo do aluno
 
 ## Links
 - Página do curso: https://www.impacta.com.br/cursos/logica/
-- Matrícula presencial: https://impacta.site.engaged.com.br/p/checkout/se22shhnov
-- Matrícula online ao vivo: https://impacta.site.engaged.com.br/p/checkout/3je9srypg3
+- Matrícula online semana (01/12/2026): https://impacta.site.engaged.com.br/p/checkout/46a86iqmg6
+- Matrícula online semana (11/01/2027): https://impacta.site.engaged.com.br/p/checkout/5o8waiplco
+- Matrícula online sábado (09/01/2027): https://impacta.site.engaged.com.br/p/checkout/ktbnykimbw
 - WhatsApp da equipe: https://api.whatsapp.com/send?phone=551132548300
